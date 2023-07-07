@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/49bc86e4ff.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/logo_img.png" class="logo">
+                <ul>
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#project">PROJECT</a></li>
+                    <li><a href="#portfolio">WORK</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Computer Science Engineer</p>
+                <h1>Hello all, I'm <span>ASWIN</span><br>From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------- About section--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/my pic.png" class="pic1">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am an computer science and engineer student in sri eshwar college of engineering 
+                        which is located in kinathukadavu.  I consider myself a responsible and orderly person.
+                        I am looking for my first working experience.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certificate')">Certificate</p>
+                    </div>
+                    <div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming languages</span><br><br>JAVA - Programming<br><br>C - Programming</li><br>
+                                <li><span>WEB development</span><br><br>Front end development - HTML , CSS , JAVASCRIPT<br><br>Back end development - MANGODB</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="tab-contents" id="education"> 
+                            <ul>
+                                <li><span>Secondary schooling</span><br><br>Srinivasa vidhyalaya matric</li>
+                                <li><span>Higher Secondary schooling</span><br><br>Srinivasa vidhyalaya matric</li>
+                                <li><span>College</span><br><br>Sri Eshwar College of engineering</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="tab-contents" id="certificate">
+                            <ul>
+                                <li><span>Udemy</span><br><br>Data structure and algorithm using C</li>
+                                <li><span>Solo learn</span><br><br>My SQL</li>
+                                <li><span>Front - end development</span><br><br>Coursera</li>
+                                <li><span>Basic SQL</span><br><br>Hacker Ranker</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------- Services section --------- -->
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title">My Website</h1>
+            <div class="services-list">
+                <div>
+                    <h2>BUS TICKET BOOKING</h2>
+                    <p>Python , CSV , QR code generator</p>
+                    <a href="#">◕ Developed an Console based project through which College Students can Login
+                        and Book tickets and as soon as booked an Email will be sent along with QR
+                        code attached . The ticket can be verfied by scanning the QR code and csv file is
+                        used to store the tickets for viewing history of tickets sold out.
+                        </a>
+                </div>
+                <div>
+                    <h2>LIFE INSURANCE PLANS FOR HEALTH ISSUES</h2>
+                    <p>JAVA , MYSQL</p>
+                    <a href="#">◕ Proficient in various life insurance policies, including term life insurance,
+                        whole life insurance, and universal life insurance.<br>
+                        ◕ Experienced in assessing risk and making informed decisions based on healthrelated factors, such as pre-existing conditions and chronic illnesses.
+                        <br>◕ Knowledgeable about health issues that can impact life insurance policies,
+                        including family medical history.
+                        </a>
+                </div>
+                <div>
+                    <h2>JOBIFY - IN PROGRESS</h2>
+                    <p>HTML , CSS , JAVASCRIPT</p>
+                    <a href="#">◕ Experienced in tracking and analyzing candidate data to optimize hiring
+                        practices and increase efficiency.<br>
+                        ◕ Capable of streamlining communication between hiring managers and
+                        candidates to ensure a positive experience.
+                        <br>◕ Skilled in utilizing technology and data analysis to improve the overall
+                        recruitment process.
+                        </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------- Portfolio --------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">MY Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/image 1.png" class="image">
+                </div>
+                <div class="work">
+                    <img src="./images/image 2.png" class="image">
+                </div>
+                <div class="work">
+                    <img src="./images/image 3.png" class="image">
+                </div>
+                <div class="work">
+                    <img src="./images/image 4.png" class="image">
+                </div>
+                <div class="work">
+                    <img src="./images/image 5.png" class="image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------- contact ---------/ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>aswinarumuagam210@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9025267635</p>
+                    <div class="social-icons">
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                        <a herf="https://www.linkedin.com/in/aswin-arumugam-b6a530242"><i class="fa-brands fa-linkedin"></i></a>
+                        <a herf="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                      <input type="text" name="Name" placeholder="Your Name" required>
+                      <input type="email" name="Email" placeholder="Your Email" required>
+                      <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                      <button type="submit" class="btn btn2">Sumit</button>
+                    </form>
+               </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
