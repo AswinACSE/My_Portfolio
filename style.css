@@ -79,6 +79,8 @@ nav ul li a:hover::after{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    height: 100%;
+    margin-top: -50px;
 }
 .about-col-1{
     flex-basis: 35%;
@@ -90,17 +92,24 @@ nav ul li a:hover::after{
     flex-basis: 60%;
 }
 .sub-title{
-    font-size: 70px;
+    font-size: 65px;
     font-weight: 600px;
     color: white;
+    margin-top: -5px;
+    margin-bottom: 25px;
 }
 .tab-titles{
     display:flex;
     margin: 20px 0 40px;
 }
+.tab-titles p{
+    background-color: #ffffff12;
+    border-radius: 5px;
+}
 .tab-links{
+    padding: 5px;
     margin-right: 30px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     cursor:pointer;
     position: relative;
@@ -121,14 +130,17 @@ nav ul li a:hover::after{
 .tab-contents ul li{
     list-style: none;
     margin: 10px 0;
+    padding: 5px;
 }
 .tab-contents ul li span{
     color: #b54769;
-    font-size: 15px;
+    font-size: 18px;
 
 }
 .tab-contents{
     display: none;
+    margin-top: -10px;
+    
 }
 .tab-contents.active-tab{
     display: block;
@@ -176,7 +188,7 @@ nav ul li a:hover::after{
 }
 .work-list{
     display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit,minmax(400px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -190,8 +202,8 @@ nav ul li a:hover::after{
     overflow: hidden;
 }
 .image{
-    width: 575px;
-    height: 300px;
+    width: 400px;
+    height: 200px;
 }
 /* -------- contact --------*/
 #contact{
