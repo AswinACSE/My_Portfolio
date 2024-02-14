@@ -44,21 +44,34 @@
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('education')">Education</p>
                         <p class="tab-links" onclick="opentab('certificate')">Certificate</p>
+                        <p class="tab-links" onclick="opentab('internship')">Internship</p>
+                        <p class="tab-links" onclick="opentab('achivement')">Achivements</p>
                     </div>
                     <div>
                         <div class="tab-contents active-tab" id="skills">
                             <ul>
-                                <li><span>Programming languages</span><br><br>JAVA - Programming<br><br>C - Programming</li><br>
-                                <li><span>WEB development</span><br><br>Front end development - HTML , CSS , JAVASCRIPT<br><br>Back end development - MANGODB</li>
+                                <li><span>Programming languages</span><br><br>JAVA Programming  ,  C Programming</li>
+                                <li><span>WEB development</span><br><br>Front end development - HTML  ,  CSS  ,  JAVASCRIPT  ,  REACT.JS<br>
+                                    Back end development - MYSQL  ,  MONGODB</li>
+                                <li><span>Designing tools</span><br><br> FIGMA  ,  BLENDER</li><br>
                             </ul>
                         </div>
                     </div>
                     <div>
                         <div class="tab-contents" id="education"> 
                             <ul>
-                                <li><span>Secondary schooling</span><br><br>Srinivasa vidhyalaya matric</li>
-                                <li><span>Higher Secondary schooling</span><br><br>Srinivasa vidhyalaya matric</li>
-                                <li><span>College</span><br><br>Sri Eshwar College of engineering</li>
+                                <li><span>College</span><br>Sri Eshwar College of engineering<br>  
+                                    2021 - 2025<br>
+                                    CGPA - 7.5 
+                                </li>
+                                <li><span>Higher Secondary schooling</span><br>Srinivasa vidhyalaya matric higher secondary school<br> 
+                                    2020 - 2021<br>
+                                    GRADE - 86%
+                                    </li>
+                                <li><span>Secondary schooling</span><br>Srinivasa vidhyalaya matric higher secondary school<br>
+                                    2020 - 2021<br>
+                                    GRADE - 86%
+                                    </li>
                             </ul>
                         </div>
                     </div>
@@ -71,34 +84,57 @@
                                 <li><span>Basic SQL</span><br><br>Hacker Ranker</li>
                             </ul>
                         </div>
-                    </div>
-                </div>
+                        <div class="tab-contents" id="internship">
+                            <ul>
+                                <li><span>Intern</span><br><br>Completed MERN Stack Internship conducted by
+                                    Better Tommorrow</li>
+                                </ul>
+                            </div>
+                        <div class="tab-contents" id="achivement">
+                            <ul>
+                                <li><span>Hackathon</span><br><br>Participated in iTech Hackfest 2023 a National level hackathon which is
+                                    conducted in PSG College of Technology.<br>
+                                    Participate in Smart India Hackathon and selected in College level.
+                                    </li>
+                                <li><span>Workshop</span><br><br>
+                                    ACM Workshop On Research Career in Computer
+                                    science - IIT Palakad <br>
+                                    HackerElite: Expert Session On Cyber Security</li>
+                            </ul>
+                        </div>
             </div>
         </div>
     </div>
     <!-- --------- Services section --------- -->
     <div id="project">
         <div class="container">
-            <h1 class="sub-title">My Website</h1>
+            <h1 class="sub-title">My Web Projects</h1>
             <div class="services-list">
                 <div>
-                    <h2>BUS TICKET BOOKING</h2>
-                    <p>Python , CSV , QR code generator</p>
-                    <a href="#">◕ Developed an Console based project through which College Students can Login
-                        and Book tickets and as soon as booked an Email will be sent along with QR
-                        code attached . The ticket can be verfied by scanning the QR code and csv file is
-                        used to store the tickets for viewing history of tickets sold out.
+                    <h2>CHAT TUBE SUMMARISER</h2>
+                    <p> HTML , CSS , React.js , Node.js , Express.js</p>
+                    <a href="#">◕ Developed and designed a user-friendly website that integrates a chatbot capable of answering user queries on a wide
+                        range of topics, enhancing user engagement and providing instant assistance.<br>
+                        ◕ Implemented a YouTube Video Transcript feature that allows users to paste video links, automatically generating
+                        concise summaries of the content, aiding in efficient information retrieval and saving time
                         </a>
                 </div>
                 <div>
-                    <h2>LIFE INSURANCE PLANS FOR HEALTH ISSUES</h2>
-                    <p>JAVA , MYSQL</p>
-                    <a href="#">◕ Proficient in various life insurance policies, including term life insurance,
-                        whole life insurance, and universal life insurance.<br>
-                        ◕ Experienced in assessing risk and making informed decisions based on healthrelated factors, such as pre-existing conditions and chronic illnesses.
-                        <br>◕ Knowledgeable about health issues that can impact life insurance policies,
-                        including family medical history.
+                    <h2>MELOSTREAM</h2>
+                    <p>React.js , Node.js , Express.js , MongoDB</p>
+                    <a href="#">◕ An advanced music streaming platform allowing users to create and delete playlists within their accounts<br>
+                        ◕ Integrated JioSaavn API to fetch songs and albums, with a robust search feature.
+                        <br>◕ Enables users to seamlessly discover and add tracks to their personalized playlists
                         </a>
+                </div>
+                <div>
+                    <h2>AI IMAGE GENERATION CLONE</h2>
+                    <p>React.js , Node.js , Express.js , MongoDB</p>
+                    <a href="#">◕ This project aims to create a system capable of generating realistic and diverse images based on text prompts,
+                        similar to the functionality of models like DALL·E.<br>
+                        ◕ The project will leverage the power of deep learning and generative models to generate high-quality images
+                        that match the descriptions provided by users
+                    </a>
                 </div>
                 <div>
                     <h2>JOBIFY - IN PROGRESS</h2>
@@ -118,21 +154,100 @@
     <div id="portfolio">
         <div class="container">
             <h1 class="sub-title">MY Work</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="./images/image 1.png" class="image">
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('project1')">Project 1</p>
+                <p class="tab-links" onclick="opentab('project2')">Project 2</p>
+                <p class="tab-links" onclick="opentab('project3')">Project 3</p>
+            </div>
+            <div>
+                <div class="tab-contents active-tab" id="project1">
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="./images/project1/image 1.png" class="image">
+                        </div>
+                        <div class="work">
+                            <img src="./images/project1/image 2.png" class="image">
+                        </div>
+                        <div class="work">
+                            <img src="./images/project1/image 3.png" class="image">
+                        </div>
+                        <div class="work">
+                            <img src="./images/project1/image 4.png" class="image">
+                        </div>
+                        <div class="work">
+                            <img src="./images/project1/image 5.png" class="image">
+                        </div>
+                    </div>
                 </div>
-                <div class="work">
-                    <img src="./images/image 2.png" class="image">
+                <div class="tab-contents" id="project2">
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="./images/project2/login.png" class="image">
+                        </div>
+                        <div class="work">
+                            <img src="./images/project2/prj - 2 image 1.png" class="image">
+                        </div>
+                        <div class="work">
+                            <img src="./images/project2/prj - 2 image 2.png" class="image">
+                        </div>
+                        <div class="work">
+                            <img src="./images/project2/prj - 2 image 3.png" class="image">
+                        </div>
+                        <div class="work">
+                            <img src="./images/project2/prj - 2 image 4.png" class="image">
+                        </div>
+                        <div class="work">
+                            <img src="./images/project2/prj - 2 image 6.png" class="image">
+                        </div>
+                        <div class="work">
+                            <img src="./images/project2/prj - 2 image 7.png" class="image">
+                        </div>
+                    </div>
                 </div>
-                <div class="work">
-                    <img src="./images/image 3.png" class="image">
+                <div class="tab-contents" id="project3">
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="./images/project3/image1.jpg" class="image">
+                        </div>
+                        <div class="work">
+                            <img src="./images/project3/image2.jpg" class="image">
+                        </div>
+                        <div class="work">
+                            <img src="./images/project3/image3.jpg" class="image">
+                        </div>
+                        <div class="work">
+                            <img src="./images/project3/image4.jpg" class="image">
+                        </div>
+                        <div class="work">
+                            <img src="./images/project3/image5.jpg" class="image">
+                        </div>
+                        <div class="work">
+                            <img src="./images/project3/image6.jpg" class="image">
+                        </div>
+                    </div>
                 </div>
-                <div class="work">
-                    <img src="./images/image 4.png" class="image">
-                </div>
-                <div class="work">
-                    <img src="./images/image 5.png" class="image">
+            </div>
+            
+        </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">MY BLENDER WORKS</h1>
+            <div>
+                <div class="tab-contents active-tab" id="project1">
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="./images/blender works/image1.jpg" class="image">
+                        </div>
+                        <div class="work">
+                            <img src="./images/blender works/image2.png" class="image">
+                        </div>
+                        <div class="work">
+                            <img src="./images/blender works/image3.png" class="image">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
